@@ -12,10 +12,11 @@ var mysql = require("mysql");
 
 //Heroku Connection
 var connection = mysql.createConnection({
-  host: "us-cdbr-iron-east-03.cleardb.net",
-  user: "ba3bc920b5c303",
-  password: "04d51ce8",
-  database: "heroku_6a34609d9f1730b"
+  host: "d6vscs19jtah8iwb.cbetxkdyhwsb.us-east-1.rds.amazonaws.com",
+  port: 3306,
+  user: "tnnux3w56d8nudob",
+  password: "z2jyj7z7kyest94z",
+  database: "r0wzsa2ugwp91dqb"
 });
 
 // Make connection.
