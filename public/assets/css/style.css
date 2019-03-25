@@ -1,7 +1,13 @@
 li {
-  padding: 5px;
-  margin: 5px;
-  background: #faebd7;
+  margin: 8px;
+  padding:5px;
+  font-size:20px;
+}
+
+li.button{
+  margin: 8px;
+  padding:5px;
+   font-size:16px;
 }
 
 .label {
@@ -11,9 +17,38 @@ li {
 .create-update-form {
   padding: 5px;
   margin: 5px;
-  background: aqua;
 }
 
 .form-group {
   margin-bottom: 5px;
+}
+
+
+.container{
+  background-color: red;
+}
+
+.devoured,.notdevoured{
+  border:2px solid black;
+  border-radius: 10px;
+}
+
+
+li:before { 
+  content: "🍔"; 
+}
+li.button:before{
+   content: ""; 
+}
+
+li{
+  align-items: stretch;
+}
+
+button{
+  align-self: flex-end;
+}
+
+button.devour-burger,button.delete-burger{
+  /* height:12px; */
 }
