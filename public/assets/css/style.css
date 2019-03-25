@@ -1,13 +1,13 @@
 /* Content */
 
-div.col-2{
+div.col-xs-2,div.col-md-1{
   padding-left:0px;
 }
 
 .content{
   color:#DCE0D9;
   margin:0 auto;
-  width:95%;
+  width:90%;
   font-family: 'Titillium Web', sans-serif;
 }
 
@@ -17,6 +17,13 @@ div.col-2{
   margin:10px 0 10px 0;
   background-color: #0C0910;
 }
+/* .devoured{
+  margin-left:1px;
+}
+.notdevoured{
+  margin-right:1px;
+} */
+
 
 body{
   background-color: #FFC15E;
@@ -104,12 +111,10 @@ button.submit:hover,button.submit:active{
 
 
 @media only screen and (max-width: 650px) {
-li {
+.title{
   font-size:40px;
 }
-
-li.button{
-  font-size:35px;
-
+.mid-title{
+  font-size:30px;
 }
 }
